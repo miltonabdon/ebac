@@ -1,0 +1,20 @@
+ALGORITMO RotinaAoAcordar
+
+VAR
+    horaDeAcordar, tarefaAbrirOsOlhos, tarefaLevantarDaCama, tarefaEscovarDentes, tarefaFazerComida, tarefaComer
+
+INICIO
+    ESCREVA "Digite a hora de acordar:"
+    LEIA horaDeAcordar
+
+    horaAtual <- HORAS_ATUAL()
+
+    SE horaDeAcordar == horaAtual
+
+      ESCREVA "Hora de acordar" + horaAtual + ˜fazer tarefa: ˜ +  tarefaAbrirOsOlhos
+      ESCREVA "Fazer tarefa " + tarefaLevantarDaCama
+      ESCREVA "Fazer tarefa " + tarefaEscovarDentes
+      ESCREVA "Fazer tarefa" + tarefaFazerComida
+      ESCREVA "Fazer tarefa" + tarefaComer
+
+FIM_ALGORITMO
